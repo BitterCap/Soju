@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var InputText: UITextField!
     @IBOutlet var outcome: UILabel!
     @IBAction func UpdateLabel(sender: AnyObject) {
-        outcome.text = "\(Int(InputText.text!)!)"
+        outcome.text = "\(Int(InputText.text!)! + 1)"
     }
     
     override func viewDidLoad() {
