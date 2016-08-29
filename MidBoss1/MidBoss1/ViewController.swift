@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var InputText: UITextField!
+    @IBOutlet var outcome: UILabel!
+    @IBAction func UpdateLabel(sender: AnyObject) {
+        outcome.text = "\(Int(InputText.text!)!)"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
