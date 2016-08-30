@@ -10,8 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var inputText: UITextField!
     @IBOutlet weak var outputText: UILabel!
     @IBAction func updateText(sender: AnyObject) {
+        outputText.text = inputText.text
     }
     override func viewDidLoad() {
         super.viewDidLoad()

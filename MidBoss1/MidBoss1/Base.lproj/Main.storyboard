@@ -30,10 +30,16 @@
                                     <action selector="updateText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kCt-IG-GBQ"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uAg-aL-Xah">
+                                <rect key="frame" x="252" y="90" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="inputText" destination="uAg-aL-Xah" id="mGJ-Ig-zDw"/>
                         <outlet property="outputText" destination="KGf-EJ-LBD" id="AkM-py-raE"/>
                     </connections>
                 </viewController>
