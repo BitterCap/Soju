@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //This comment is meaningless
+    //This is another meaningless comment (Charlie)
     @IBOutlet weak var inputText: UITextField!
     @IBOutlet weak var outputText: UILabel!
     @IBAction func updateText(sender: AnyObject) {
